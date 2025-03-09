@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti, mi estrella</title>
+    <style>
+        /* Estilos generales */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow: hidden;
+            background: black; /* Fondo negro */
+        }
+
+        /* Contenedor del mensaje (responsive) */
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 90%; /* Ocupa el 90% del ancho en móviles */
+            max-width: 600px; /* Limita el ancho máximo en pantallas grandes */
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 1.8rem; /* Tamaño de fuente para móviles */
+            margin-bottom: 15px;
+            color: #ffcc00;
+        }
+
+        p {
+            font-size: 0.9rem; /* Tamaño de fuente para móviles */
+            line-height: 1.5;
+        }
+
+        /* Efecto de brillo en el texto */
+        .glow {
+            text-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00, 0 0 30px #ffcc00;
+        }
+
+        /* Ajustes para pantallas pequeñas (móviles) */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.6rem; /* Tamaño de fuente más pequeño */
+            }
+
+            p {
+                font-size: 0.85rem; /* Tamaño de fuente más pequeño */
+            }
+
+            .container {
+                padding: 15px; /* Menos padding para móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor del mensaje -->
+    <div class="container">
+        <h1 class="glow">Para ti, mi todo</h1>
+        <p>
+            Ojalá pudiera estar contigo hoy, pero aunque no sea posible, quiero que sepas lo mucho que te quiero y lo mucho que significas para mí. No exagero cuando te digo que eres la única persona que me hace sentir de esta manera. Solo pienso en ti, solo te amo a ti. Eres una mujer maravillosa, increíble, interesante, inteligente y, sobre todo, única. Nunca me cansaré de decírtelo: vales muchísimo y eres alguien verdaderamente especial.<br><br>
+            Eres mi lugar seguro, mi momento favorito de cada día. Cada día que pasa, te veo más hermosa, y me siento afortunado de ser testigo de tu belleza, tanto por fuera como por dentro. Me encanta estar contigo, compartir contigo, comer contigo, hablar contigo... todo contigo. Eres la mujer de mis sueños, y tú misma eres un sueño hecho realidad. Alguien que, sin importar cuánto tiempo pase, nunca deja de sorprenderme ni de iluminar mi vida con tu luz.<br><br>
+            Te quiero muchísimo majo, eres lo mejor que me ha pasado.
+        </p>
+    </div>
+</body>
+</html>
